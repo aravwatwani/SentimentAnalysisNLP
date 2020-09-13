@@ -47,6 +47,8 @@ print(emotion_list)
 w = Counter(emotion_list)
 print(w)
 
+# matplotlib code for data visualization
+
 fig, ax1 = plt.subplots()
 ax1.bar(w.keys(), w.values())
 fig.autofmt_xdate()
